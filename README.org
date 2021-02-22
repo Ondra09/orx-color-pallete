@@ -10,7 +10,7 @@ All colors defined in ~html-colors.ini~ are defined in ~r-colors.ini~ as well an
 | html-colors.ini |    148 |
 | r-colors.ini    |    558 |
 
-In each file are colors are sorted to groups so you can find similar color quickly.
+Colors are sorted to groups so you can find similar color fastly.
 
 [[file:./docs/html-colors.png]]
 
