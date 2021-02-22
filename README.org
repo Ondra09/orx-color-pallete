@@ -1,6 +1,6 @@
-* orx-color-pallete
+* orx-color-palette
 
-Definitions of html colors for [[https://orx-project.org/][ORX engine]].
+Definitions of HTML colors for [[https://orx-project.org/][ORX engine]].
 
 All colors defined in ~html-colors.ini~ are defined in ~r-colors.ini~ as well and some more.
 
