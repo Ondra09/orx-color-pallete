@@ -1,0 +1,39 @@
+* orx-color-pallete
+
+Definitions of html colors for [[https://orx-project.org/][ORX engine]].
+
+All colors that are defined in ~html-colors.ini~ are defined in ~r-colors.ini~ as well.
+
+
+
+| File name       | colors |
+|-----------------+--------|
+| html-colors.ini |    148 |
+| r-colors.ini    |    558 |
+
+Colors are sorted to groups
+
+[[docs/html-colors.png] [HTML colors preview]]
+
+
+
+
+** Usage
+Copy ~html-colors.ini~ into your ~.ini~ folder, typically ~{project-root}/data/config~ and include from your main ~.ini~ file like this:
+ #+BEGIN_SRC ini
+
+@html-colors.ini@
+
+[Object]
+Color           = @Colors.MediumOrchid
+ #+END_SRC
+
+After include you can refer to color name directly by e.g. ~@Colors.MediumOrchid~.
+
+
+** Cool... but why?
+It is good when your editor supports visualization of HTML colors. You can prototype without need for switching into painting program with color picker tool.
+It gives you an option to use colors by their names instead of using thos pesky vectors directly.
+
+This image showing color highlighting in action (/Emacs/ with /rainbow-mode/).
+[[./docs/emacs.png ][emacs + rainbow mode]]
