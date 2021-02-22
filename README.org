@@ -13,7 +13,7 @@ All colors that are defined in ~html-colors.ini~ are defined in ~r-colors.ini~ a
 
 Colors are sorted to groups
 
-[[docs/html-colors.png] [HTML colors preview]]
+[[file:./docs/html-colors.png]]
 
 
 
@@ -36,4 +36,5 @@ It is good when your editor supports visualization of HTML colors. You can proto
 It gives you an option to use colors by their names instead of using thos pesky vectors directly.
 
 This image showing color highlighting in action (/Emacs/ with /rainbow-mode/).
-[[./docs/emacs.png ][emacs + rainbow mode]]
+
+[[file:./docs/emacs.png]]
